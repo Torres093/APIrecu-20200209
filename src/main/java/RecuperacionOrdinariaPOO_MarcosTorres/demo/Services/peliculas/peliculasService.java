@@ -50,7 +50,7 @@ public class peliculasService {
 
         peliculas.setTitulo(json.getTitulo());
         peliculas.setDirector(json.getDirector());
-        peliculas.setAño(json.getAño());
+        peliculas.setAñio(json.getAñio());
         peliculas.setGenero(json.getGenero());
         peliculas.setDuracion(json.getDuracion());
         peliculas.setPuntuacion(json.getPuntuacion());
@@ -75,7 +75,7 @@ public class peliculasService {
         dto.setId(peliculaGuardada.getId());
         dto.setTitulo(peliculaGuardada.getTitulo());
         dto.setDirector(peliculaGuardada.getDirector());
-        dto.setAño(peliculaGuardada.getAño());
+        dto.setAñio(peliculaGuardada.getAñio());
         dto.setGenero(peliculaGuardada.getGenero());
         dto.setDuracion(peliculaGuardada.getDuracion());
         dto.setPuntuacion(peliculaGuardada.getPuntuacion());
@@ -89,7 +89,7 @@ public class peliculasService {
         entity.setId(json.getId());
         entity.setTitulo(json.getTitulo());
         entity.setDirector(json.getDirector());
-        entity.setAño(json.getAño());
+        entity.setAñio(json.getAñio());
         entity.setGenero(json.getGenero());
         entity.setDuracion(json.getDuracion());
         entity.setPuntuacion(json.getPuntuacion());

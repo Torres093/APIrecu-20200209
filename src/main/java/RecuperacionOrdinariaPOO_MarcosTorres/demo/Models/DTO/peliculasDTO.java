@@ -21,11 +21,13 @@ public class peliculasDTO {
     private Long id;
     private String titulo;
     private String director;
-    private LocalDate año;
+    private int añio;
     private String genero;
     private int duracion;
     @Positive(message = "La puntuntuacion deben ser números positivos")
     @Min(value = 1, message = "El valor debe ser mayor o igual a 1")
-    @Max(value = 10, message = "El valor debe ser menor o igual a 10")
+    @Max(value = 5, message = "El valor debe ser menor o igual a 10")
     private int puntuacion;
+
+
 }

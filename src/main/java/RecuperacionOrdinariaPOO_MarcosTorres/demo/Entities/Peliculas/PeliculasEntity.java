@@ -3,8 +3,6 @@ package RecuperacionOrdinariaPOO_MarcosTorres.demo.Entities.Peliculas;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
-
 @Entity
 @Getter @Setter
 @ToString @EqualsAndHashCode
@@ -20,7 +18,7 @@ public class PeliculasEntity {
     @Column(name = "DIRECTOR")
     private String director;
     @Column(name = "AÑO")
-    private LocalDate año;
+    private int añio;
     @Column(name = "GENERO")
     private String genero;
     @Column(name = "DURACION_MINUTOS")
